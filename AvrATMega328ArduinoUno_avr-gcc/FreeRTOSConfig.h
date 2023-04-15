@@ -42,8 +42,9 @@
  *----------------------------------------------------------*/
 
 #define configUSE_PREEMPTION		1
-#define configUSE_IDLE_HOOK			1
-#define configUSE_TICK_HOOK			0
+#define configUSE_IDLE_HOOK			0
+#define configUSE_TICK_HOOK			1
+#define configTASK_NOTIFICATION_ARRAY_ENTRIES 3
 #define configCPU_CLOCK_HZ			( ( unsigned long ) 16000000 )
 #define configTICK_RATE_HZ			( ( TickType_t ) 1000 )
 #define configMAX_PRIORITIES		( 4 )
@@ -59,13 +60,50 @@
 /* Set the following definitions to 1 to include the API function, or zero
 to exclude the API function. */
 
-#define INCLUDE_vTaskPrioritySet		0
-#define INCLUDE_uxTaskPriorityGet		0
+#define INCLUDE_vTaskPrioritySet		1
+#define INCLUDE_uxTaskPriorityGet		1
 #define INCLUDE_vTaskDelete				1
 #define INCLUDE_vTaskCleanUpResources	0
-#define INCLUDE_vTaskSuspend			0
+#define INCLUDE_vTaskSuspend			1
 #define INCLUDE_vTaskDelayUntil			1
 #define INCLUDE_vTaskDelay				1
+#define INCLUDE_eTaskGetState           1
+#define configUSE_MUTEXES               1
+#define ConfigUSE_COUNTING_SEMAPHORES   1
+#define configUSE_TIMERS                1
 
+#define configTIMER_TASK_PRIORITY       1
+#define configTIMER_QUEUE_LENGTH        4
+#define configTIMER_TASK_STACK_DEPTH    4
+#define INCLUDE_xTimerPendFunctionCall  1
+#define configUSE_RECURSIVE_MUTEXES     1
+
+#define configSTART_TASK_NOTIFY_TESTS             0
+#define configSTART_BLOCKING_QUEUE_TESTS          0
+#define configSTART_SEMAPHORE_TESTS               0
+#define configSTART_POLLED_QUEUE_TESTS            0
+#define configSTART_INTEGER_MATH_TESTS            0
+#define configSTART_GENERIC_QUEUE_TESTS           0
+#define configSTART_PEEK_QUEUE_TESTS              0
+#define configSTART_MATH_TESTS                    0
+#define configSTART_RECURSIVE_MUTEX_TESTS         0
+#define configSTART_COUNTING_SEMAPHORE_TESTS      0
+#define configSTART_QUEUE_SET_TESTS               0
+#define configSTART_QUEUE_OVERWRITE_TESTS         0
+#define configSTART_EVENT_GROUP_TESTS             0
+#define configSTART_INTERRUPT_SEMAPHORE_TESTS     0
+#define configSTART_QUEUE_SET_POLLING_TESTS       0
+#define configSTART_BLOCK_TIME_TESTS              0
+#define configSTART_ABORT_DELAY_TESTS             0
+#define configSTART_MESSAGE_BUFFER_TESTS          0
+#define configSTART_STREAM_BUFFER_TESTS           0
+#define configSTART_STREAM_BUFFER_INTERRUPT_TESTS 0
+#define configSTART_TIMER_TESTS                   0
+#define configSTART_INTERRUPT_QUEUE_TESTS         0
+#define configSTART_REGISTER_TESTS                0
+#define configSTART_DELETE_SELF_TESTS             0
+
+//Not supported in this project
+#define configSTART_TASK_NOTIFY_ARRAY_TESTS       0
 
 #endif /* FREERTOS_CONFIG_H */

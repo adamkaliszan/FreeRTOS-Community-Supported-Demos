@@ -1,0 +1,122 @@
+[
+  {
+    "directory": ".",
+    "command": "avr-gcc -c -mmcu=atmega328 -I. -D GCC_MEGA_AVR -I. -I../../../../Source/include -I../../../Common/include -I../../../../Source/portable/ThirdParty/GCC/ATmega -g -Os -fsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -Wall -Wextra -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-align -Wsign-compare -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wunused -Wa,-adhlns=main.lst -IMessageBufferDemo -std=gnu99 main.c -o main.o",
+    "file": "main.o"
+  },
+  {
+    "directory": ".",
+    "command": "avr-gcc -c -mmcu=atmega328 -I. -D GCC_MEGA_AVR -I. -I../../../../Source/include -I../../../Common/include -I../../../../Source/portable/ThirdParty/GCC/ATmega -g -Os -fsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -Wall -Wextra -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-align -Wsign-compare -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wunused -Wa,-adhlns=IntQueueTimer.lst -IMessageBufferDemo -std=gnu99 IntQueueTimer.c -o IntQueueTimer.o",
+    "file": "IntQueueTimer.o"
+  },
+  {
+    "directory": ".",
+    "command": "avr-gcc -c -mmcu=atmega328 -I. -D GCC_MEGA_AVR -I. -I../../../../Source/include -I../../../Common/include -I../../../../Source/portable/ThirdParty/GCC/ATmega -g -Os -fsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -Wall -Wextra -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-align -Wsign-compare -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wunused -Wa,-adhlns=TestRunner.lst -IMessageBufferDemo -std=gnu99 TestRunner.c -o TestRunner.o",
+    "file": "TestRunner.o"
+  },
+  {
+    "directory": ".",
+    "command": "avr-gcc -c -mmcu=atmega328 -I. -D GCC_MEGA_AVR -I. -I../../../../Source/include -I../../../Common/include -I../../../../Source/portable/ThirdParty/GCC/ATmega -g -Os -fsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -Wall -Wextra -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-align -Wsign-compare -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wunused -Wa,-adhlns=RegTests.lst -IMessageBufferDemo -std=gnu99 RegTests.c -o RegTests.o",
+    "file": "RegTests.o"
+  },
+  {
+    "directory": ".",
+    "command": "avr-gcc -c -mmcu=atmega328 -I. -D GCC_MEGA_AVR -I. -I../../../../Source/include -I../../../Common/include -I../../../../Source/portable/ThirdParty/GCC/ATmega -g -Os -fsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -Wall -Wextra -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-align -Wsign-compare -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wunused -Wa,-adhlns=../../../../Source/event_groups.lst -IMessageBufferDemo -std=gnu99 ../../../../Source/event_groups.c -o ../../../../Source/event_groups.o",
+    "file": "../../../../Source/event_groups.o"
+  },
+  {
+    "directory": ".",
+    "command": "avr-gcc -c -mmcu=atmega328 -I. -D GCC_MEGA_AVR -I. -I../../../../Source/include -I../../../Common/include -I../../../../Source/portable/ThirdParty/GCC/ATmega -g -Os -fsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -Wall -Wextra -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-align -Wsign-compare -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wunused -Wa,-adhlns=../../../../Source/list.lst -IMessageBufferDemo -std=gnu99 ../../../../Source/list.c -o ../../../../Source/list.o",
+    "file": "../../../../Source/list.o"
+  },
+  {
+    "directory": ".",
+    "command": "avr-gcc -c -mmcu=atmega328 -I. -D GCC_MEGA_AVR -I. -I../../../../Source/include -I../../../Common/include -I../../../../Source/portable/ThirdParty/GCC/ATmega -g -Os -fsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -Wall -Wextra -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-align -Wsign-compare -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wunused -Wa,-adhlns=../../../../Source/queue.lst -IMessageBufferDemo -std=gnu99 ../../../../Source/queue.c -o ../../../../Source/queue.o",
+    "file": "../../../../Source/queue.o"
+  },
+  {
+    "directory": ".",
+    "command": "avr-gcc -c -mmcu=atmega328 -I. -D GCC_MEGA_AVR -I. -I../../../../Source/include -I../../../Common/include -I../../../../Source/portable/ThirdParty/GCC/ATmega -g -Os -fsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -Wall -Wextra -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-align -Wsign-compare -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wunused -Wa,-adhlns=../../../../Source/tasks.lst -IMessageBufferDemo -std=gnu99 ../../../../Source/tasks.c -o ../../../../Source/tasks.o",
+    "file": "../../../../Source/tasks.o"
+  },
+  {
+    "directory": ".",
+    "command": "avr-gcc -c -mmcu=atmega328 -I. -D GCC_MEGA_AVR -I. -I../../../../Source/include -I../../../Common/include -I../../../../Source/portable/ThirdParty/GCC/ATmega -g -Os -fsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -Wall -Wextra -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-align -Wsign-compare -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wunused -Wa,-adhlns=../../../../Source/timers.lst -IMessageBufferDemo -std=gnu99 ../../../../Source/timers.c -o ../../../../Source/timers.o",
+    "file": "../../../../Source/timers.o"
+  },
+  {
+    "directory": ".",
+    "command": "avr-gcc -c -mmcu=atmega328 -I. -D GCC_MEGA_AVR -I. -I../../../../Source/include -I../../../Common/include -I../../../../Source/portable/ThirdParty/GCC/ATmega -g -Os -fsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -Wall -Wextra -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-align -Wsign-compare -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wunused -Wa,-adhlns=../../../../Source/portable/MemMang/heap_1.lst -IMessageBufferDemo -std=gnu99 ../../../../Source/portable/MemMang/heap_1.c -o ../../../../Source/portable/MemMang/heap_1.o",
+    "file": "../../../../Source/portable/MemMang/heap_1.o"
+  },
+  {
+    "directory": ".",
+    "command": "avr-gcc -c -mmcu=atmega328 -I. -D GCC_MEGA_AVR -I. -I../../../../Source/include -I../../../Common/include -I../../../../Source/portable/ThirdParty/GCC/ATmega -g -Os -fsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -Wall -Wextra -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-align -Wsign-compare -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wunused -Wa,-adhlns=../../../../Source/portable/ThirdParty/GCC/ATmega/port.lst -IMessageBufferDemo -std=gnu99 ../../../../Source/portable/ThirdParty/GCC/ATmega/port.c -o ../../../../Source/portable/ThirdParty/GCC/ATmega/port.o",
+    "file": "../../../../Source/portable/ThirdParty/GCC/ATmega/port.o"
+  },
+  {
+    "directory": ".",
+    "command": "avr-gcc -c -mmcu=atmega328 -I. -D GCC_MEGA_AVR -I. -I../../../../Source/include -I../../../Common/include -I../../../../Source/portable/ThirdParty/GCC/ATmega -g -Os -fsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -Wall -Wextra -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-align -Wsign-compare -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wunused -Wa,-adhlns=../../../Common/Minimal/AbortDelay.lst -IMessageBufferDemo -std=gnu99 ../../../Common/Minimal/AbortDelay.c -o ../../../Common/Minimal/AbortDelay.o",
+    "file": "../../../Common/Minimal/AbortDelay.o"
+  },
+  {
+    "directory": ".",
+    "command": "avr-gcc -c -mmcu=atmega328 -I. -D GCC_MEGA_AVR -I. -I../../../../Source/include -I../../../Common/include -I../../../../Source/portable/ThirdParty/GCC/ATmega -g -Os -fsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -Wall -Wextra -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-align -Wsign-compare -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wunused -Wa,-adhlns=../../../Common/Minimal/GenQTest.lst -IMessageBufferDemo -std=gnu99 ../../../Common/Minimal/GenQTest.c -o ../../../Common/Minimal/GenQTest.o",
+    "file": "../../../Common/Minimal/GenQTest.o"
+  },
+  {
+    "directory": ".",
+    "command": "avr-gcc -c -mmcu=atmega328 -I. -D GCC_MEGA_AVR -I. -I../../../../Source/include -I../../../Common/include -I../../../../Source/portable/ThirdParty/GCC/ATmega -g -Os -fsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -Wall -Wextra -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-align -Wsign-compare -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wunused -Wa,-adhlns=../../../Common/Minimal/PollQ.lst -IMessageBufferDemo -std=gnu99 ../../../Common/Minimal/PollQ.c -o ../../../Common/Minimal/PollQ.o",
+    "file": "../../../Common/Minimal/PollQ.o"
+  },
+  {
+    "directory": ".",
+    "command": "avr-gcc -c -mmcu=atmega328 -I. -D GCC_MEGA_AVR -I. -I../../../../Source/include -I../../../Common/include -I../../../../Source/portable/ThirdParty/GCC/ATmega -g -Os -fsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -Wall -Wextra -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-align -Wsign-compare -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wunused -Wa,-adhlns=../../../Common/Minimal/recmutex.lst -IMessageBufferDemo -std=gnu99 ../../../Common/Minimal/recmutex.c -o ../../../Common/Minimal/recmutex.o",
+    "file": "../../../Common/Minimal/recmutex.o"
+  },
+  {
+    "directory": ".",
+    "command": "avr-gcc -c -mmcu=atmega328 -I. -D GCC_MEGA_AVR -I. -I../../../../Source/include -I../../../Common/include -I../../../../Source/portable/ThirdParty/GCC/ATmega -g -Os -fsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -Wall -Wextra -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-align -Wsign-compare -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wunused -Wa,-adhlns=../../../Common/Minimal/integer.lst -IMessageBufferDemo -std=gnu99 ../../../Common/Minimal/integer.c -o ../../../Common/Minimal/integer.o",
+    "file": "../../../Common/Minimal/integer.o"
+  },
+  {
+    "directory": ".",
+    "command": "avr-gcc -c -mmcu=atmega328 -I. -D GCC_MEGA_AVR -I. -I../../../../Source/include -I../../../Common/include -I../../../../Source/portable/ThirdParty/GCC/ATmega -g -Os -fsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -Wall -Wextra -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-align -Wsign-compare -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wunused -Wa,-adhlns=../../../Common/Minimal/semtest.lst -IMessageBufferDemo -std=gnu99 ../../../Common/Minimal/semtest.c -o ../../../Common/Minimal/semtest.o",
+    "file": "../../../Common/Minimal/semtest.o"
+  },
+  {
+    "directory": ".",
+    "command": "avr-gcc -c -mmcu=atmega328 -I. -D GCC_MEGA_AVR -I. -I../../../../Source/include -I../../../Common/include -I../../../../Source/portable/ThirdParty/GCC/ATmega -g -Os -fsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -Wall -Wextra -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-align -Wsign-compare -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wunused -Wa,-adhlns=../../../Common/Minimal/TaskNotify.lst -IMessageBufferDemo -std=gnu99 ../../../Common/Minimal/TaskNotify.c -o ../../../Common/Minimal/TaskNotify.o",
+    "file": "../../../Common/Minimal/TaskNotify.o"
+  },
+  {
+    "directory": ".",
+    "command": "avr-gcc -c -mmcu=atmega328 -I. -D GCC_MEGA_AVR -I. -I../../../../Source/include -I../../../Common/include -I../../../../Source/portable/ThirdParty/GCC/ATmega -g -Os -fsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -Wall -Wextra -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-align -Wsign-compare -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wunused -Wa,-adhlns=../../../Common/Minimal/EventGroupsDemo.lst -IMessageBufferDemo -std=gnu99 ../../../Common/Minimal/EventGroupsDemo.c -o ../../../Common/Minimal/EventGroupsDemo.o",
+    "file": "../../../Common/Minimal/EventGroupsDemo.o"
+  },
+  {
+    "directory": ".",
+    "command": "avr-gcc -c -mmcu=atmega328 -I. -D GCC_MEGA_AVR -I. -I../../../../Source/include -I../../../Common/include -I../../../../Source/portable/ThirdParty/GCC/ATmega -g -Os -fsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -Wall -Wextra -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-align -Wsign-compare -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wunused -Wa,-adhlns=../../../Common/Minimal/QueueOverwrite.lst -IMessageBufferDemo -std=gnu99 ../../../Common/Minimal/QueueOverwrite.c -o ../../../Common/Minimal/QueueOverwrite.o",
+    "file": "../../../Common/Minimal/QueueOverwrite.o"
+  },
+  {
+    "directory": ".",
+    "command": "avr-gcc -c -mmcu=atmega328 -I. -D GCC_MEGA_AVR -I. -I../../../../Source/include -I../../../Common/include -I../../../../Source/portable/ThirdParty/GCC/ATmega -g -Os -fsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -Wall -Wextra -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-align -Wsign-compare -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wunused -Wa,-adhlns=../../../Common/Minimal/QueueSet.lst -IMessageBufferDemo -std=gnu99 ../../../Common/Minimal/QueueSet.c -o ../../../Common/Minimal/QueueSet.o",
+    "file": "../../../Common/Minimal/QueueSet.o"
+  },
+  {
+    "directory": ".",
+    "command": "avr-gcc -c -mmcu=atmega328 -I. -D GCC_MEGA_AVR -I. -I../../../../Source/include -I../../../Common/include -I../../../../Source/portable/ThirdParty/GCC/ATmega -g -Os -fsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -Wall -Wextra -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-align -Wsign-compare -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wunused -Wa,-adhlns=../../../Common/Minimal/QueueSetPolling.lst -IMessageBufferDemo -std=gnu99 ../../../Common/Minimal/QueueSetPolling.c -o ../../../Common/Minimal/QueueSetPolling.o",
+    "file": "../../../Common/Minimal/QueueSetPolling.o"
+  },
+  {
+    "directory": ".",
+    "command": "avr-gcc -c -mmcu=atmega328 -I. -D GCC_MEGA_AVR -I. -I../../../../Source/include -I../../../Common/include -I../../../../Source/portable/ThirdParty/GCC/ATmega -g -Os -fsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -Wall -Wextra -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-align -Wsign-compare -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wunused -Wa,-adhlns=../../../Common/Minimal/StaticAllocation.lst -IMessageBufferDemo -std=gnu99 ../../../Common/Minimal/StaticAllocation.c -o ../../../Common/Minimal/StaticAllocation.o",
+    "file": "../../../Common/Minimal/StaticAllocation.o"
+  },
+  {
+    "directory": ".",
+    "command": "avr-gcc -c -mmcu=atmega328 -I. -D GCC_MEGA_AVR -I. -I../../../../Source/include -I../../../Common/include -I../../../../Source/portable/ThirdParty/GCC/ATmega -g -Os -fsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -Wall -Wextra -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-align -Wsign-compare -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wunused -Wa,-adhlns=../../../Common/Minimal/flop.lst -IMessageBufferDemo -std=gnu99 ../../../Common/Minimal/flop.c -o ../../../Common/Minimal/flop.o",
+    "file": "../../../Common/Minimal/flop.o"
+  }
+]

@@ -58,17 +58,47 @@ PORT_DIR = ../../../../Source/portable/ThirdParty/GCC/ATmega
 
 SRC	= \
 main.c \
-ParTest/ParTest.c \
-serial/serial.c \
-regtest.c \
-$(SOURCE_DIR)/tasks.c \
-$(SOURCE_DIR)/queue.c \
+IntQueueTimer.c \
+TestRunner.c \
+RegTests.c \
+$(SOURCE_DIR)/event_groups.c \
 $(SOURCE_DIR)/list.c \
+$(SOURCE_DIR)/queue.c \
+$(SOURCE_DIR)/tasks.c \
+$(SOURCE_DIR)/timers.c \
 $(SOURCE_DIR)/portable/MemMang/heap_1.c \
 $(PORT_DIR)/port.c \
-$(DEMO_DIR)/integer.c \
+$(DEMO_DIR)/AbortDelay.c \
+$(DEMO_DIR)/GenQTest.c \
 $(DEMO_DIR)/PollQ.c \
-$(DEMO_DIR)/comtest.c
+$(DEMO_DIR)/recmutex.c \
+$(DEMO_DIR)/integer.c \
+$(DEMO_DIR)/semtest.c \
+$(DEMO_DIR)/TaskNotify.c \
+$(DEMO_DIR)/EventGroupsDemo.c \
+$(DEMO_DIR)/QueueOverwrite.c \
+$(DEMO_DIR)/QueueSet.c \
+$(DEMO_DIR)/QueueSetPolling.c \
+$(DEMO_DIR)/StaticAllocation.c \
+$(DEMO_DIR)/flop.c \
+
+#Out of memory. It should be also included.
+SRC_OUT_OF_MEMORY = \
+$(DEMO_DIR)/IntQueue.c \
+$(SOURCE_DIR)/stream_buffer.c \
+$(DEMO_DIR)/StreamBufferDemo.c \
+$(DEMO_DIR)/MessageBufferDemo.c \
+$(DEMO_DIR)/StreamBufferInterrupt.c \
+$(DEMO_DIR)/blocktim.c \
+$(DEMO_DIR)/death.c \
+$(DEMO_DIR)/BlockQ.c \
+$(DEMO_DIR)/QPeek.c \
+$(DEMO_DIR)/TaskNotifyArray.c \
+$(DEMO_DIR)/TimerDemo.c \
+$(DEMO_DIR)/IntSemTest.c \
+$(DEMO_DIR)/MessageBufferAMP.c \
+$(DEMO_DIR)/dynamic.c \
+$(DEMO_DIR)/countsem.c \
 
 
 # If there is more than one source file, append them above, or modify and
@@ -92,7 +122,7 @@ ASRC =
 
 # List any extra directories to look for include files here.
 #     Each directory must be seperated by a space.
-EXTRAINCDIRS =
+EXTRAINCDIRS =MessageBufferDemo
 
 
 # Optional compiler flags.
@@ -103,11 +133,11 @@ EXTRAINCDIRS =
 #  -Wa,...:   tell GCC to pass this to the assembler.
 #    -ahlms:  create assembler listing
 
-DEBUG_LEVEL=-g
+DEBUG_LEVEL= -g
 WARNINGS=-Wall -Wextra -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-align -Wsign-compare \
 		-Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wunused
 
-CFLAGS = -D GCC_MEGA_AVR -I. -I../../../../Source/include -I../../../Common/include  \
+CFLAGS = -D GCC_MEGA_AVR -I. -I../../../../Source/include -I../../../Common/include -I../../../../Source/portable/ThirdParty/GCC/ATmega \
 $(DEBUG_LEVEL) -O$(OPT) \
 -fsigned-char -funsigned-bitfields -fpack-struct -fshort-enums \
 $(WARNINGS) \

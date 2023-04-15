@@ -30,8 +30,8 @@
 			"type": "shell",
 			"command": "make gdbserver",
 			"group": "build",
-			"problemMatcher": [],
-			"detail": "Starts gdbserver. Start it beffore attaching debugger"
-		}
+			"detail": "Starts gdbserver. Start it beffore attaching debugger",
+		
+		},
 	]
 }
